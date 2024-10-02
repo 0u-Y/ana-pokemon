@@ -65,7 +65,7 @@ def get_pokemon_data(pokemon_id):
             "id": pokemon_id,
             "height": height,
             "weight": weight,
-            "types": ', '.join(translated_types),
+            "types": '|'.join(translated_types),
             "image_url": image_url,
             "gif_url": gif_url
         }
